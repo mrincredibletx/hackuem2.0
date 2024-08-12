@@ -1,0 +1,16 @@
+[package]
+name = "user-info"
+version = "0.0.0"
+authors = []
+
+[addresses]
+sender = "0x47a98f4a17d312ba7bdacf60419d5c7adb0fdf4fd01d6c305171ec32c8278c3a"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "devnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
